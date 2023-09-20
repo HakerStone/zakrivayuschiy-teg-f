@@ -389,27 +389,27 @@ dialog::backdrop {
 }
 
 .img3 {
-  filter: contrast(500%) brightness(500%);
+  filter: saturate(500%) contrast(100%) brightness(100%);
 }
 
 .img4 {
-  filter: saturate(30%) sepia(60%) invert(75%);
+  filter: saturate(200%) grayscale(50%) hue-rotate(25deg) sepia(30%) contrast(100%) brightness(100%);
 }
 
 .img5 {
-  filter: saturate(30%) sepia(60%) invert(75%) grayscale(50%);
+  filter: saturate(220%) invert(60%) contrast(200%) brightness(120%);
 }
 
 .img6 {
-  filter: saturate(30%) sepia(60%) invert(75%) grayscale(50%) contrast(200%);
+  filter: saturate(30%) sepia(60%) invert(20%) grayscale(50%) contrast(200%);
 }
 
 .img7 {
-  filter: saturate(30%) sepia(60%) invert(75%) grayscale(50%) contrast(200%) hue-rotate(90deg);
+  filter: saturate(80%) blur(15px);
 }
 
 .img8 {
-  filter: saturate(30%) sepia(60%) blur(5px) invert(75%) grayscale(50%) hue-rotate(90deg) contrast(200%);
+  filter: saturate(30%) invert(20%) contrast(200%) hue-rotate(100deg) brightness(80%);
 }
 
 @media (width <= 476px) {

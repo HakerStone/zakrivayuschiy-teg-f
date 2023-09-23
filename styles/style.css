@@ -27,11 +27,13 @@
 .body {
   background-image: var(--background-image);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @supports (font-variation-settings: normal) {
   .page {
       font-family: 'Inter-Variable', sans-serif;
+      font-size: var(--font-size);
   }
 } 
 
@@ -54,7 +56,7 @@
 }
 
 .a {
-  font-size: 65px;
+  font-size: clamp(1.5rem, 4vw, 65px);
   margin-bottom: 20px;
   text-decoration: none;
   color: var(--accent-color);
@@ -62,7 +64,7 @@
 
 .h1 {
   text-transform: uppercase;
-  font-size: 23px;
+  font-size: clamp(18px, 2.5vw, 23px);
   margin-bottom: 22px;
 }
 

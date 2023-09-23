@@ -112,7 +112,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;CSS&gt;</span>
-            <img class="card__item_image img3" src="./images/image_card-1.jpg" alt="Ретро вургон">
+            <img class="card__item_image img3" src="./images/image_card-1.jpg" alt="Ретро фургон">
           </div>
 
           <p class="card__item_text">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
@@ -141,7 +141,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;desigions&gt;</span>
-            <img class="card__item_image img4" src="./images/image_card-1.jpg" alt="Призрачный фургон фургон">
+            <img class="card__item_image img4" src="./images/image_card-1.jpg" alt="Коричневый фургон">
           </div>
 
           <p class="card__item_text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
@@ -170,7 +170,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;care&gt;</span>
-            <img class="card__item_image img5" src="./images/image_card-1.jpg" alt="Фиолетовое небо фургон">
+            <img class="card__item_image img5" src="./images/image_card-1.jpg" alt="Зеленный фургон">
           </div>
 
           <p class="card__item_text">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?</p>
@@ -199,7 +199,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;support&gt;</span>
-            <img class="card__item_image img6" src="./images/image_card-1.jpg" alt="Черно-белый фургон">
+            <img class="card__item_image img6" src="./images/image_card-1.jpg" alt="Ночное небо и коричневый фургон">
           </div>
 
           <p class="card__item_text">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
@@ -228,7 +228,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;lifes-style: none;&gt;</span>
-            <img class="card__item_image img7" src="./images/image_card-1.jpg" alt="Бело-черный фургон">
+            <img class="card__item_image img7" src="./images/image_card-1.jpg" alt="Заблюренный фургон">
           </div>
 
           <p class="card__item_text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали.</p>
@@ -257,7 +257,7 @@
 
           <div class="card__item_watermark-and-image">
             <span class="card__item_watermark">&lt;experience&gt;</span>
-            <img class="card__item_image img8" src="./images/image_card-1.jpg" alt="Заблюренный фургон">
+            <img class="card__item_image img8" src="./images/image_card-1.jpg" alt="Мусоровозка фургон">
           </div>
 
           <p class="card__item_text">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
@@ -293,23 +293,22 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-
-      <dialog id="dialog-id" class="modal-window">
-        <div class="modal-window__inner">
-          <div class="wrapper">
-            <svg class="modal-window__floppy_image" viewBox="0 0 20 20">
-              <use href="svg/floppy.svg#floppy" />
-            </svg>
-            <p class="modal-window__text">Вставьте дискету, чтобы продолжить</p>
-          </div>
-          <form>
-            <button type="submit" class="modal-window__button">
-              <span class="button__text">ОК</span>
-            </button>
-          </form>
-        </div>
-      </dialog> 
     </footer>
+    <dialog id="dialog-id" class="modal-window">
+      <div class="modal-window__inner">
+        <div class="wrapper">
+          <svg class="modal-window__floppy_image" viewBox="0 0 20 20">
+            <use href="svg/floppy.svg#floppy" />
+          </svg>
+          <p class="modal-window__text">Вставьте дискету, чтобы продолжить</p>
+        </div>
+        <form method="dialog">
+          <button type="button" class="modal-window__button">
+            <span class="button__text">ОК</span>
+          </button>
+        </form>
+      </div>
+    </dialog> 
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
   </body>

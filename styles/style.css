@@ -415,6 +415,10 @@ dialog::backdrop {
 }
 
 @media (width <= 476px) {
+  body {
+    min-height: 100vh;
+  }  
+  
   .header {
     padding-top: 120px;
   }

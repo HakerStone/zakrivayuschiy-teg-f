@@ -446,9 +446,3 @@ dialog::backdrop {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #2b2b2b;
-    color: #fff;
-  }
-}

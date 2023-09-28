@@ -216,7 +216,7 @@
   cursor: pointer;
   outline: none;
   background-color: var(--background-color);
-  height: 39px;
+  height: 38px;
   display: flex;
   border: 2px solid transparent;
   align-items: center;
@@ -407,7 +407,7 @@ dialog::backdrop {
 }
 
 .img7 {
-  filter: saturate(80%) blur(15px);
+  filter: saturate(80%) blur(5px);
 }
 
 .img8 {

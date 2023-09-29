@@ -56,7 +56,7 @@
 }
 
 .a {
-  font-size: clamp(1.5rem, 4vw, 65px);
+  font-size: clamp(1.5rem, 10vw, 65px);
   margin-bottom: 20px;
   text-decoration: none;
   color: var(--accent-color);
@@ -136,12 +136,14 @@
 
 .card__item_watermark-and-image {
   position: relative;
+  border-bottom: 2px solid var(--accent-color);
+  border-top: 2px solid var(--accent-color);
 }
 
 .card__item_image {
   width: 100%;
-  border-top: 2px solid var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
+  /*border-top: 2px solid var(--accent-color);*/
+  /*border-bottom: 2px solid var(--accent-color);*/
 }
 
 .card__item_watermark {
@@ -222,6 +224,7 @@
   align-items: center;
   justify-content: center;
   transition: border .3s ease;
+  margin-right: 10px;
 }
 
 .card__icon-button:focus-visible {

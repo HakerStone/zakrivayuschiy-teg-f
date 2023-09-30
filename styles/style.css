@@ -137,13 +137,11 @@
 .card__item_watermark-and-image {
   position: relative;
   border-bottom: 2px solid var(--accent-color);
-  border-top: 2px solid var(--accent-color);
 }
 
 .card__item_image {
   width: 100%;
-  /*border-top: 2px solid var(--accent-color);*/
-  /*border-bottom: 2px solid var(--accent-color);*/
+  display: block
 }
 
 .card__item_watermark {
@@ -178,6 +176,7 @@
 .card__title {
   padding: 3px 10px;
   font-size: 18px;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .buttons_wrapper {
